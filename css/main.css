@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+/* Barre de navigation */
+body::-webkit-scrollbar {
+    width: 13px;
+}
+body::-webkit-scrollbar-track {
+    background: rgb(29, 29, 29);
+}
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(110, 110, 110);
+    border-radius: 20px;
+    border: 3px solid rgb(29, 29, 29);
+}
+
+/* Site web personalisation CSS */
+body {
+    font-family:'Ubuntu', sans-serif;
+    padding: 0 2%;
+    margin: 0;
+}
+html {
+    background-color: rgb(29, 29, 29);
+}
+li {
+    color: white;
+}
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(34, 34, 34);
+    position: sticky;
+    top: 0;
+    margin-right: -2%;
+    margin-left: -2%;
+    z-index: 999;
+}
+nav .profile {
+    display: flex;
+    align-items: center;
+    margin-left: 1%;
+}
+nav .profile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+nav .profile img:hover {
+    cursor: pointer;
+    transform: scale(110%);
+    filter: saturate(0%);
+    transition: 1s;
+}
+.contenu-page header img {
+    float: right;
+    margin-right: -63% ;
+    margin-top: -24%;
+    max-width: 100%;
+    width: 32%;
+    height: 32%;
+}
+.contenu-page header img:hover {
+    filter: grayscale(100);
+    transform: scale(115%);
+    transition: 1s;
+}
+nav .profile h1 {
+    color: white;
+    margin-left: 10px;
+    font-size: 16px;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin-right: 2%;
+}
+nav ul li {
+    margin-left: 25px;
+    cursor: pointer;
+    border-bottom: 2px solid rgb(33, 33, 33);
+}
+nav ul a {
+    text-decoration: none;
+}
+nav ul li:hover {
+    border-bottom: 2px solid white;
+}
+.contenu-page {
+    margin: 5%;
+}
+.contenu-page header {
+    margin-top: 5%;
+    max-width: 60%;
+}
+.contenu-page header h2 {
+    color: white;
+    margin: 0%;
+    text-transform: uppercase;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 4vw;
+}
+.contenu-page header p {
+    line-height: 30px;
+    color: #919191;
+    margin-top: 5%;
+}
+.contenu-page header button {
+    background-color: inherit;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 0%;
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    cursor: pointer;
+    border-bottom: 2px solid rgb(29, 29, 29);
+    margin-top: 1%;
+}
+.contenu-page header button:hover {
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+/*Les 4 images : Logo, Banner, Pro, Perso*/
+.contenu-page .image-presentation {
+    margin-top: 40%;
+}
+.contenu-page .image-presentation img {
+    max-width: 100%;
+    width: 20%;
+    height: 20%;
+    margin-left: 4%;
+    margin-bottom: 4%;
+    transition: filter 0.5s;
+    transition: transform 0.5s;
+    position: relative; left: -5px; right: 0px;
+}
+.contenu-page .image-presentation img:hover {
+    cursor: pointer;
+    filter: brightness(200%);
+    transform: scale(105%);
+}
+
+/* Pied de page */
+footer {
+    margin-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(33, 33, 33);
+    color: white;
+    padding: 10px;
+    margin-right: -2%;
+    margin-left: -2%;
+}
+footer .colone a {
+    text-decoration: none;
+}
+footer .colone p {
+    font-size: 12px;
+    color: #ccc;
+    cursor: pointer;
+}
+footer .colone p:hover {
+    color: white;
+}
