@@ -69,7 +69,10 @@ nav .profile img:hover {
 nav .profile h1 {
     color: white;
     margin-left: 10px;
-    font-size: 16px;
+    font-size: 17px;
+}
+nav .profile h1::selection {
+    color: rgb(0, 162, 255);
 }
 nav ul {
     display: flex;
@@ -87,6 +90,9 @@ nav ul a {
 nav ul li:hover {
     border-bottom: 2px solid white;
 }
+nav ul li::selection {
+    color: rgb(0, 162, 255);
+}
 .contenu-page {
     margin: 5%;
 }
@@ -101,10 +107,16 @@ nav ul li:hover {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 4vw;
 }
+.contenu-page header h2::selection {
+    color: rgb(0, 162, 255);
+}
 .contenu-page header p {
     line-height: 30px;
     color: #919191;
     margin-top: 5%;
+}
+.contenu-page header p::selection {
+    color: rgb(170, 0, 255);
 }
 .contenu-page header button {
     background-color: inherit;
@@ -118,6 +130,9 @@ nav ul li:hover {
     cursor: pointer;
     border-bottom: 2px solid rgb(29, 29, 29);
     margin-top: 1%;
+}
+.contenu-page header button::selection {
+    color: rgb(0, 162, 255);
 }
 .contenu-page header button:hover {
     color: white;
@@ -144,7 +159,66 @@ nav ul li:hover {
     transform: scale(105%);
 }
 
-/* Pied de page */
+/* Formulaire */
+.contacte_moi {
+    margin-top: 30%;
+    border-radius: 5px;
+    background-color: rgb(33, 33, 33);
+    padding: 20px;
+    margin-right: 25%;
+    margin-left: 25%;
+    text-decoration: none;
+    font-family:'Ubuntu', sans-serif;
+}
+.contacte_moi form label {
+    color: white;
+}
+.contacte_moi form label::selection {
+    color: rgb(0, 162, 255);
+}
+.contacte_moi form input, textarea {
+    background-color: rgb(90, 90, 90);
+}
+.contacte_moi form input, textarea:focus {
+    color: white;
+    outline: 0;
+    font-family:'Ubuntu', sans-serif;
+}
+.contacte_moi form textarea {
+    color: white;
+    font-family:'Ubuntu', sans-serif;
+}
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(33, 33, 33);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+.contacte_moi form button {
+    display: inline-block;
+    background-color: rgb(90, 90, 90);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family:'Ubuntu', sans-serif;
+}
+.contacte_moi form button::selection {
+    color: rgb(0, 162, 255);
+}
+.contacte_moi form button:hover {
+    background-color: rgb(70, 120, 255);
+    transform: scale(105%);
+    transition: 0.5s;
+}
+
+/* Footer */
 footer {
     margin-top: 10%;
     display: flex;
@@ -163,6 +237,12 @@ footer .colone p {
     font-size: 12px;
     color: #ccc;
     cursor: pointer;
+}
+footer .colone p::selection {
+    color: rgb(0, 162, 255);
+}
+footer .colone h3::selection {
+    color: rgb(0, 162, 255);
 }
 footer .colone p:hover {
     color: white;
