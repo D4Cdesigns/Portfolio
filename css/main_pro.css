@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+/* Barre de défilement */
+body::-webkit-scrollbar {
+    width: 13px;
+}
+body::-webkit-scrollbar-track {
+    background: rgb(29, 29, 29);
+}
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(110, 110, 110);
+    border-radius: 20px;
+    border: 3px solid rgb(29, 29, 29);
+}
+
+/* Site web personalisation CSS */
+body {
+    padding: 0 2%;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+html {
+    background-color: rgb(29, 29, 29);
+}
+li {
+    color: white;
+}
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(34, 34, 34);
+    position: sticky;
+    top: 0;
+    margin-right: -2%;
+    margin-left: -2%;
+    z-index: 999;
+}
+nav .profile {
+    display: flex;
+    align-items: center;
+    margin-left: 1%;
+}
+nav .profile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+nav .profile img:hover {
+    cursor: pointer;
+    transform: scale(110%);
+    filter: saturate(0%);
+    transition: 1s;
+}
+nav .profile h1 {
+    color: white;
+    margin-left: 10px;
+    font-size: 16px;
+}
+nav .profile h1::selection {
+    color: rgb(0, 162, 255);
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin-right: 2%;
+}
+nav ul li {
+    margin-left: 25px;
+    cursor: pointer;
+    border-bottom: 2px solid rgb(33, 33, 33);
+}
+nav ul a {
+    text-decoration: none;
+}
+nav ul li::selection {
+    color: rgb(0, 162, 255);
+}
+nav ul li:hover {
+    border-bottom: 2px solid #fff;
+    border-bottom-color: white;
+}
+.contenu-page {
+    margin: 5%;
+}
+.contenu-page header {
+    margin-top: 5%;
+    max-width: 60%;
+}
+.contenu-page header h2 {
+    color: white;
+    width: 100%;
+    margin-left: 39%;
+    margin-top: -7%;
+    text-transform: uppercase;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 4vw;
+}
+.contenu-page header h2::selection {
+    color: rgb(0, 162, 255);
+}
+
+/*Projet pro*/
+.contenu-page .image-presentation img {
+    max-width: 100%;
+    width: 30%;
+    height: 30%;
+    margin-left: 2%;
+    transition: transform 0.5s;
+    position: relative; left: -5px; right: 0px;
+}
+.contenu-page .image-presentation img:hover {
+    transform: scale(110%);
+}
+.contenu-page .image-presentation-2 {
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.contenu-page .image-presentation-2 img {
+    max-width: 100%;
+    width: 40%;
+    height: 40%;
+    margin-left: 2%;
+    transition: transform 0.5s;
+    position: relative; left: -5px; right: 0px;
+}
+.contenu-page .image-presentation-2 img:hover {
+    transform: scale(110%);
+}
+
+/* Footer */
+footer {
+    margin-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(33, 33, 33);
+    color: white;
+    padding: 10px;
+    margin-right: -2%;
+    margin-left: -2%;
+}
+footer .colone a {
+    text-decoration: none;
+}
+footer .colone p {
+    font-size: 12px;
+    color: #ccc;
+    cursor: pointer;
+}
+footer .colone p::selection {
+    color: rgb(0, 162, 255);
+}
+footer .colone h3::selection {
+    color: rgb(0, 162, 255);
+}
+footer .colone p:hover {
+    color: white;
+}
