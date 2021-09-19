@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="css/main.css"/>
-        <title>Portfolio Anthony</title>
+        <title>Mon Portfolio</title>
         <link rel="icon" href="image/portfolio1.png">
     </head>
 <body>
@@ -11,7 +11,7 @@
 <!-- Barre de navigation -->
     <nav>
         <div class="profile">
-            <a href="index.html"><img src="image/profile2.jpg" alt="image_profil"></a>
+            <a href="index.html"><img src="image/profile2.jpg" alt="image_profil" title="Accueil"></a>
             <h1>Anthony HASHIMOTO</h1>
         </div>
         <ul>
@@ -20,6 +20,8 @@
             <a href="https://linktr.ee/D4C_designs" target="_blank"><li>Contact</li></a>
         </ul>
     </nav>
+
+    <a href="english.html"><img class="icon_lang" src="image/en.png" alt="english" title="English version"></a>
 
 <!-- Contenu texte -->
     <section class="contenu-page">
@@ -31,20 +33,18 @@
                 Habitué de la communication, je conçois des solutions de communication visuelle. 
                 Je travaille sur le sens des messages à l'aide des formes graphiques que j'utilise 
                 sur tout type de supports. Je suis un médiateur qui agit sur les conditions de 
-                réception et d’appropriation des informations et des savoirs que je met en forme. 
+                réception et d’appropriation des informations et des savoirs que je mets en forme. 
                 Mes connaissances reposent sur la typographie, l'usage des signes, des images et 
                 l'art de la mise en page. Je peux m'exprimer dans le domaine de l'imprimé, de 
                 l'interactivité ou de l'illustration.</p>
                 <a href="image/cv.jpg" target="_blank"><button>En savoir plus</button></a>
-  </div>
-</a>
 
 <!-- Selection images -->
         </header>
         <section id="creations" class="image-presentation">
             <a href="logo.html"><img src="image/icon_logo.png" alt="Logo"></a>
             <a href="banner.html"><img src="image/icon_banner.png" alt="Banner"></a>
-            <img src="image/icon_pro.png" alt="Projet professionnel">
+            <a href="projet_pro.html"><img src="image/icon_pro.png" alt="Projet professionnel"></a>
             <img src="image/icon_perso.png" alt="Projet personnel">
             <img src="image/icon_soon.png" alt="à remplacer">
             <img src="image/icon_soon.png" alt="à remplacer">
@@ -58,13 +58,13 @@
         <form>
       
           <label>Nom & Prénom</label>
-          <input type="text" id="nom_prenom" name="name">
+          <input type="text" name="name">
       
           <label>Email</label>
-          <input type="text" id="email" name="mail">
+          <input type="text" name="mail">
 
           <label>Message</label>
-          <textarea id="message" name="subject" style="height:170px"></textarea>
+          <textarea name="subject" style="height:170px"></textarea>
       
           <button class="Envoyer">Envoyer</button>
       
