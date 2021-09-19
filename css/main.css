@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
-/* Barre de navigation */
+/* Barre de défilement */
 body::-webkit-scrollbar {
     width: 13px;
 }
@@ -52,6 +52,17 @@ nav .profile img:hover {
     transform: scale(110%);
     filter: saturate(0%);
     transition: 1s;
+}
+.icon_lang {
+    float: right;
+    margin-right: -1.5%;
+    width: 4%;
+    position: sticky;
+    top: 93%;
+}                                   /* Changement de langue */
+.icon_lang:hover {
+    transform: scale(110%);
+    transition: 0.4s;
 }
 .contenu-page header img {
     float: right;
