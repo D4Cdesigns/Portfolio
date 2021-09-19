@@ -1,4 +1,4 @@
-![Banner_D4C](https://user-images.githubusercontent.com/90670714/133913195-65d4e0c0-766f-4fa8-89fc-47e3ecc1a61b.jpg)
+![Banner_D4C](https://user-images.githubusercontent.com/90670714/133913248-9d7d6515-4c9b-403d-ac9f-223f5754d465.png)
 
 # 📑Manuel d'utilisation de mon Portfolio
 
