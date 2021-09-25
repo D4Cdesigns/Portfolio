@@ -21,6 +21,7 @@ body {
 }
 html {
     background-color: rgb(29, 29, 29);
+    scroll-behavior: smooth;
 }
 li {
     color: white;
